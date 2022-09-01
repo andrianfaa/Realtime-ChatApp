@@ -73,7 +73,7 @@ export default function ChatRoom() {
     };
 
     useEffect(() => {
-        const socketConnection = io(process.env.SOCKET_URL as string || "http://192.168.100.111:5000");
+        const socketConnection = io(process.env.REACT_APP_SOCKET_URL as string || "http://localhost:5000");
 
         socketConnection.on("welcome", (listRooms: RoomType[]) => {
             setRooms(listRooms);
