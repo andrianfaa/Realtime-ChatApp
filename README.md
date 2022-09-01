@@ -4,5 +4,5 @@ this is a simple chat app built using MERN Stack Technology and Socket.io as rea
 
 ## Live
 
-- [Frontend](https://www.andriann.co/)
-- [Backend]()
+- [Frontend](https://chat-app.project.andrianfa.my.id/)
+- [Backend](https://andrianfaa--chat-app.herokuapp.com)
