@@ -1,0 +1,30 @@
+{
+    "name": "realtime-chat_server",
+    "version": "1.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server.ts"
+    },
+    "author": "https://github.com/andrianfaa",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.7.14",
+        "@types/nodemon": "^1.19.2",
+        "nodemon": "^2.0.19",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.2"
+    },
+    "dependencies": {
+        "@types/body-parser": "^1.19.2",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/morgan": "^1.9.3",
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "helmet": "^6.0.0",
+        "morgan": "^1.10.0",
+        "socket.io": "^4.5.1"
+    }
+}

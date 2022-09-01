@@ -1,0 +1,29 @@
+@layer base {
+    body {
+        @apply bg-white text-slate-500 font-medium;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold text-black;
+    }
+
+    h1 {
+        @apply leading-relaxed text-4xl md:text-5xl md:leading-loose;
+    }
+
+    h2 {
+        @apply text-xl md:text-2xl md:leading-relaxed;
+    }
+
+    button,
+    textarea,
+    input {
+        @apply outline-0 text-base;
+        @apply disabled:opacity-50 disabled:cursor-not-allowed;
+    }
+}

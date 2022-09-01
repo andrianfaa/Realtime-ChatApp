@@ -1,0 +1,33 @@
+@layer components {
+    .input {
+        &-base {
+            @apply transition-[border] duration-200 ease-in-out;
+            @apply border-2 border-black rounded-md p-3 px-5 w-full custom-shadow;
+        }
+    }
+
+    .button {
+        &-base {
+            @apply transition-all duration-200 ease-in-out;
+            @apply border-2 border-black text-black font-semibold rounded-md p-3 px-5 w-full custom-shadow;
+            @apply active:scale-95;
+        }
+
+        &-primary {
+            @apply bg-primary text-white;
+            @apply active:bg-primary-dark;
+        }
+    }
+
+    .badge {
+        @apply text-xs py-0.5 px-1 rounded bg-primary border-2 border-black text-white;
+    }
+
+    .timeline-wrapper {
+        grid-template-rows: 78px auto 122px;
+
+        &-sm {
+            grid-template-rows: 58px auto 122px;
+        }
+    }
+}

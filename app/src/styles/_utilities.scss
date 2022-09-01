@@ -1,0 +1,9 @@
+@layer utilities {
+    .custom-shadow {
+        box-shadow: 2.5px 2.5px 0 0 $default-box-shadow-color;
+    }
+
+    .link {
+        @apply text-primary;
+    }
+}
